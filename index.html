@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Task Manager</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Personal Task Manager</h1>
+    </header>
+
+    <main>
+        <h2>My Tasks</h2>
+        <ul class="task-list" id="task-list">
+            <li class="task-item">
+                Finish homework 
+                <button class="delete-btn">Delete</button>
+            </li>
+            <li class="task-item">Go grocery shopping <button class="delete-btn">Delete</button></li>
+            <li class="task-item">Prepare for the meeting <button class="delete-btn">Delete</button></li>
+            <li class="task-item">Exercise for 30 minutes <button class="delete-btn">Delete</button></li>
+
+        </ul>
+
+        <div id="add-task-container">
+            <input id="task-input" type="text" placeholder="Enter new task">
+            <button id="add-task-btn">Add Task</button>
+        </div>
+ 
+
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Personal Task Manager</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
